@@ -19,3 +19,10 @@ git fetch --all
 2. git pull origin/main
 3. git merge main
 4. git push origin/main
+
+
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
